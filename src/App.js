@@ -1,10 +1,13 @@
 
-import './App.css';
+import './App.scss';
+import Header from './Container/Header/Header';
+import Home from './Container/Home/Home';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
+    <div className="app">
+      <Header />
+      <Home /> 
     </div>
   );
 }
