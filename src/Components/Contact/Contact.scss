@@ -1,0 +1,45 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 4rem;
+  top: 40%;
+
+  &::before{
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 200px;
+      width: 2px;
+      height: 128px;
+      background-color: rgb(207, 205, 205);
+  }
+
+  &::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 230px;
+    width: 2px;
+    height: 128px;
+    background-color: rgb(207, 205, 205);
+}
+
+  &__item {
+    margin-bottom: 1.5rem;
+    list-style: none;
+
+    &:hover svg{
+        transform: scale(1.30);
+        color: #ffff;
+    }
+  }
+
+  &__icon {
+    color: rgb(207, 205, 205);
+    width: 24px;
+    height: 24px;
+    transition: all .3s;
+  }
+}
+
