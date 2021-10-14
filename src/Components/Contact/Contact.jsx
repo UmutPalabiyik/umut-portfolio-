@@ -8,26 +8,6 @@ const Contact = () => {
       <li className="contact__item">
         <a
           className="contact__link"
-          href="https://www.twitch.tv/hopepoprock"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaTwitch className="contact__icon" />
-        </a>
-      </li>
-      <li className="contact__item">
-        <a
-          className="contact__link"
-          href="https://twitter.com/UmmutPal"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaTwitter className="contact__icon" />
-        </a>
-      </li>
-      <li className="contact__item">
-        <a
-          className="contact__link"
           href="https://github.com/UmutPalabiyik"
           target="_blank"
           rel="noreferrer"
@@ -43,6 +23,26 @@ const Contact = () => {
           rel="noreferrer"
         >
           <FaLinkedinIn className="contact__icon" />
+        </a>
+      </li>
+      <li className="contact__item">
+        <a
+          className="contact__link"
+          href="https://twitter.com/UmmutPal"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaTwitter className="contact__icon" />
+        </a>
+      </li>
+      <li className="contact__item">
+        <a
+          className="contact__link"
+          href="https://www.twitch.tv/hopepoprock"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaTwitch className="contact__icon" />
         </a>
       </li>
     </ul>
