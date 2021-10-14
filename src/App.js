@@ -1,10 +1,13 @@
 
-import './App.css';
+import './App.scss';
+import About from './Container/About/About';
+import Contact from './Components/Contact/Contact';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
+    <div className="app">
+      <Contact />
+      <About /> 
     </div>
   );
 }
