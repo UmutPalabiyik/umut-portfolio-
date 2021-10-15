@@ -86,7 +86,7 @@ $phone: 768px;
 
 
         &:not(:last-child){
-          border-right: 2px solid rgb(5,9,12);
+          border-right: .5px solid rgb(5,9,12);
         }
 
         @for $i from 1 through 4 {
