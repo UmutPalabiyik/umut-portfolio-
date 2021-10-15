@@ -1,0 +1,26 @@
+.about {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 75vw;
+  margin-left: 4rem;
+
+  &__static-text {
+    color: #ffff;
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  &__dynamics{
+    padding-left: 2rem;
+    font-size: 90px;
+    color: #fc6d6d;
+  }
+
+  &__cursor{
+    font-size: 90px;
+    color: #fc6d6d;
+  }
+}
