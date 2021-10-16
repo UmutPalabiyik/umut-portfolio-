@@ -11,7 +11,7 @@ $white: #ffff;
     background-color: transparent;
     color: $white;
     cursor: pointer;
-    transition: all .4s;
+    transition: all .5s;
     overflow: hidden;
     text-decoration: none;
 
@@ -29,7 +29,7 @@ $white: #ffff;
         .download-button__icon{
             display: block;
             color: rgb(0, 0, 0);
-            animation: slideUp .4s ease;
+            animation: slideUp .5s ease;
         }
     }
 
@@ -42,7 +42,7 @@ $white: #ffff;
     &__text{
         margin-left: .5rem;
         font-size: 1rem;
-        transition: all .2s;
+        transition: all .5s;
     }
 
     @keyframes slideUp {

@@ -7,7 +7,7 @@ const About = () => {
       <div className="about__static-text">I'm</div>
       <Typewriter
         options={{
-          strings: ["Umut Palabiyik", "Jr.Front-end Developer"],
+          strings: ["Umut Palabiyik", "Front-end Developer"],
           autoStart: true,
           loop: true,
           wrapperClassName: "about__dynamics",
