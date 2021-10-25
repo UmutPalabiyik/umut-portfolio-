@@ -1,6 +1,13 @@
 import "./Contact.scss";
 import { FaTwitter, FaLinkedinIn, FaTwitch } from "react-icons/fa";
 import { VscGithub } from "react-icons/vsc";
+import { HiMail } from "react-icons/hi";
+
+
+
+
+
+
 
 const Contact = () => {
   return (
@@ -28,6 +35,16 @@ const Contact = () => {
       <li className="contact__item">
         <a
           className="contact__link"
+          href="mailto:umutplbyk96@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <HiMail className="contact__icon" />
+        </a>
+      </li>
+      <li className="contact__item">
+        <a
+          className="contact__link"
           href="https://twitter.com/UmmutPal"
           target="_blank"
           rel="noreferrer"
@@ -50,3 +67,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

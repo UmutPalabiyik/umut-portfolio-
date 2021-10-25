@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="app">
       <DownloadButton />
-      <Contact />
+      <Contact/>
       <Home /> 
     </div>
   );

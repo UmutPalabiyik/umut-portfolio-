@@ -22,4 +22,46 @@
     font-size: 90px;
     color: #fc6d6d;
   }
+
+
+  @media screen and (max-width: 768px) {
+
+    margin-left: 1rem;
+
+    &__static-text{
+      font-size: 24px;
+    }
+
+    &__dynamics{
+      padding-left: 2rem;
+      font-size: 32px;
+      color: #fc6d6d;
+    }
+  
+    &__cursor{
+      font-size: 32px;
+      color: #fc6d6d;
+    }
+  }
+
+  
+  @media screen and (max-width: 768px) {
+
+    margin-left: 1rem;
+
+    &__static-text{
+      font-size: 20px;
+    }
+
+    &__dynamics{
+      padding-left: 1rem;
+      font-size: 24px;
+      color: #fc6d6d;
+    }
+  
+    &__cursor{
+      font-size: 24px;
+      color: #fc6d6d;
+    }
+  }
 }

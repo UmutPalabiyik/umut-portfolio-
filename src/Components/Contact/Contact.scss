@@ -11,7 +11,7 @@ $phone: 768px;
       content: "";
       position: absolute;
       left: 50%;
-      top: 200px;
+      top: 250px;
       width: 2px;
       height: 128px;
       background-color: rgb(207, 205, 205);
@@ -23,7 +23,7 @@ $phone: 768px;
     content: "";
     position: absolute;
     left: 50%;
-    bottom: 230px;
+    bottom: 285px;
     width: 2px;
     height: 128px;
     background-color: rgb(207, 205, 205);
@@ -64,7 +64,7 @@ $phone: 768px;
   }
 
   @media screen and (max-width: 768px) {
-      height: 72px;
+      height: 48px;
       width: 100%;
       left: 0;
       bottom: 0;
@@ -78,7 +78,7 @@ $phone: 768px;
       }
 
       &__item{
-        width: 25%;
+        width: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
